@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+
+{
+	//Definindo uma variável
+	int a = 5;
+
+	//Imprimindo a variável "a"
+	printf("%d", a);
+	
+	//Contatenando
+	printf("\nO valor da var a é: %d", a);
+
+	//Mudando o valor de "a"
+	a = 15;
+
+	//Contatenando
+	printf("\nO valor da var a é: %d", a);
+
+	//Pula linhas
+	printf("\n");
+
+	return(0);
+}
+
+//ImprimirLerContatenar
